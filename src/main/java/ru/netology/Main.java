@@ -105,7 +105,7 @@ public class Main {
     public static void main(String[] args) throws IOException, URISyntaxException {
         Client client = new Client();
 
-        Post post = client.sendRequestToGetClass("https://api.nasa.gov/planetary/apod?api_key=cvq0gPgjd6659oBD0epn2Whd2cT8Wgd96SYQfYg6");
+        Post post = client.sendRequestToGetClass("https://api.nasa.gov/planetary/apod?api_key=__");
         System.out.println(post);
 
         client.sendRequestToGetFile(post);
